@@ -3,8 +3,10 @@ Appear elements on entering into frame
 
 ## Usage
 
-```Appear.init();
+```js
+Appear.init();
 window.addEventListener('scroll', () => 
 {
   Appear.update();
-});```
+});
+```
