@@ -5,6 +5,7 @@ Appear elements on entering into frame
 
 ```js
 Appear.init();
+
 window.addEventListener('scroll', () => 
 {
   Appear.update();
